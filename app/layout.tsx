@@ -32,6 +32,9 @@ export default function RootLayout({
       lang="en"
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-mono", jetbrainsMono.variable)}
     >
+			<head>
+				<link rel="me" href="https://mastodon.social/@caillinnugent"/>
+			</head>
       <body className="min-h-screen flex flex-col">
 				<Header />
 				{children}
