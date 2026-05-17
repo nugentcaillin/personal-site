@@ -5,7 +5,7 @@ export default function ContentWrapper({
   children: React.ReactNode;
 }>) {
 	return (
-		<div className = "grow-1 flex w-full max-w-7xl bg-background">
+		<div className = "grow-1 flex w-full max-w-7xl bg-background p-20">
 			{children}
 		</div>
 	)
