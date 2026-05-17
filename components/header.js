@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export default function Header() {
 	return (
-		<NavigationMenu className="w-full max-w-full p-1 shadow-xs justify-self-start max-h-max">
+		<NavigationMenu className="w-full max-w-full p-1 shadow-xs justify-self-start max-h-max bg-background">
 			<NavigationMenuList className="flex flex-row gap-1">
 				<NavigationMenuItem>
 					<NavigationMenuLink

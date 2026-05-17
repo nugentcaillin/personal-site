@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 };
 
 import Header from "@/components/header"
+import ContentWrapper from "@/components/content_wrapper"
 
 export default function RootLayout({
   children,
@@ -35,9 +36,11 @@ export default function RootLayout({
 			<head>
 				<link rel="me" href="https://mastodon.social/@caillinnugent"/>
 			</head>
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col items-center bg-muted">
 				<Header />
-				{children}
+				<ContentWrapper>
+					{children}
+				</ContentWrapper>
 			</body>
     </html>
   );
