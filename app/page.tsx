@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className = "w-full">
 			<TypographyH1 className="mt-[30vh]">
-				Hi, I'm Caillin
+				Hi there, I'm Caillin
 			</TypographyH1>
 			<TypographyBigText>
 				I'm a final-year Computer-Science undergrad student from Melbourne, Australia.
